@@ -66,3 +66,4 @@ h1 { font-size: clamp(28px, 6vw, 48px); margin: 12px 0 8px; }
 
 /* Note */
 .hint { opacity:.8; font-size:14px; margin-top: 8px; }
+.plant-stage svg { display: block !important; }
