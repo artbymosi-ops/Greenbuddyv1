@@ -20,13 +20,10 @@ export default function PlantPage() {
 
       {/* SVG rastlinka */}
       <div className="plant-stage">
-        {/* kvetináč */}
-        <svg viewBox="0 0 200 220" className="plant" aria-label="Monstera">
-          {/* zem */}
-          <ellipse cx="100" cy="160" rx="52" ry="10" fill="#5c3d2e" opacity="0.9" />
-          {/* kvetináč */}
-          <path d="M40 160 h120 l-12 42 a8 8 0 0 1 -8 6 H60 a8 8 0 0 1 -8 -6 Z" fill="#8b5e3c"/>
-          <ellipse cx="100" cy="160" rx="60" ry="14" fill="#a06b43"/>
+  <svg width="140" height="140" aria-label="test-svg" style={{background:'#0b1411'}}>
+    <circle cx="70" cy="70" r="55" fill="#ff4d4d" />
+  </svg>
+</div>
 
           {/* stonka (animovaná) */}
           <g className="sway">
