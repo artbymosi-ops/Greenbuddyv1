@@ -29,3 +29,40 @@ code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
 }
+/* Layout */
+.wrap { max-width: 900px; margin: 0 auto; padding: 24px; color: #e9f1ec; }
+.topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom: 12px; }
+.brand { display:flex; gap:8px; align-items:center; font-size: 18px; }
+.sprout { font-size: 20px; }
+h1 { font-size: clamp(28px, 6vw, 48px); margin: 12px 0 8px; }
+
+/* Plant stage */
+.plant-stage { display:flex; justify-content:center; margin: 10px 0 16px; }
+.plant { width: min(420px, 90vw); height: auto; }
+
+/* Animácia kývania */
+.sway { transform-origin: 100px 160px; animation: sway 4s ease-in-out infinite; }
+@keyframes sway {
+  0%   { transform: rotate(0deg) translateX(0); }
+  25%  { transform: rotate(-3.5deg) translateX(-2px); }
+  50%  { transform: rotate(0deg) translateX(0); }
+  75%  { transform: rotate(3.5deg) translateX(2px); }
+  100% { transform: rotate(0deg) translateX(0); }
+}
+
+/* Stats */
+.stats { display:grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap:12px; margin: 8px 0 6px; }
+.stat { background:#0f1714; border:1px solid #23322b; border-radius:12px; padding:10px 12px; text-align:center; }
+.stat-label { opacity:.85; font-size: 14px; }
+.stat-value { font-size: 22px; font-weight: 700; }
+
+/* Buttons */
+.buttons { display:flex; flex-wrap:wrap; gap:10px; margin: 10px 0 8px; }
+.buttons button {
+  background:#e9f1ec; color:#0b1411; border:none; border-radius:12px; padding:10px 16px;
+  font-weight:600; cursor:pointer;
+}
+.buttons button:active { transform: translateY(1px); }
+
+/* Note */
+.hint { opacity:.8; font-size:14px; margin-top: 8px; }
