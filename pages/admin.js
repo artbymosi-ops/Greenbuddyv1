@@ -18,7 +18,7 @@ export default function AdminPage() {
   return (
     <main style={{ minHeight: "100vh", background: "#0c1012", color: "#fff", padding: 24 }}>
       <h1>🔐 Admin panel (demo)</h1>
-      <p>Si prihlásená ako admin. Tu neskôr pridáme moderovanie fóra a nástroje.</p>
+      <p>Si prihlásená ako admin. Tu neskôr pribudne moderovanie fóra a nástroje.</p>
       <button
         onClick={() => { localStorage.removeItem("gb_admin"); window.location.href = "/"; }}
         style={{ marginTop: 16 }}
