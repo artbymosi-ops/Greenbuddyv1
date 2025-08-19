@@ -1,0 +1,24 @@
+<!-- public/monstera.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fd063"/>
+      <stop offset="1" stop-color="#2b8f45"/>
+    </linearGradient>
+  </defs>
+
+  <!-- kvetináč -->
+  <rect x="85" y="170" width="90" height="36" rx="8" fill="#7a4a2a"/>
+  <rect x="75" y="162" width="110" height="18" rx="9" fill="#9a623a"/>
+
+  <!-- stonka -->
+  <rect x="127" y="90" width="6" height="80" rx="3" fill="#2f7d3a"/>
+
+  <!-- listy (monstera štýl) -->
+  <g fill="url(#g)" stroke="#1c5d2a" stroke-width="2">
+    <path d="M126 120c-40-30-70-10-75 10 25 10 35-5 45 5 8 8 15 20 30 12 3-18 1-23 0-27z"/>
+    <path d="M134 120c40-30 70-10 75 10-25 10-35-5-45 5-8 8-15 20-30 12-3-18-1-23 0-27z"/>
+    <path d="M126 100c-20-28-50-24-62-5 20 6 29 0 38 6 7 5 14 12 24 7 1-6 1-7 0-8z"/>
+    <path d="M134 100c20-28 50-24 62-5-20 6-29 0-38 6-7 5-14 12-24 7-1-6-1-7 0-8z"/>
+  </g>
+</svg>
